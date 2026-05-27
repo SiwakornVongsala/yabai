@@ -11,9 +11,9 @@ shift + alt - k : yabai -m window --swap north
 shift + alt - l : yabai -m window --swap east
 
 # Cycle focus and return to the most recently focused window.
-alt - n : yabai -m window --focus next
-alt - p : yabai -m window --focus prev
-alt - b : yabai -m window --focus recent
+# alt - n : yabai -m window --focus next
+# alt - p : yabai -m window --focus prev
+# alt - b : yabai -m window --focus recent
 
 # Change layout for the current window or space.
 alt - f : yabai -m window --toggle zoom-fullscreen
