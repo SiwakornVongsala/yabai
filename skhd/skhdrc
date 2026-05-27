@@ -10,6 +10,22 @@ shift + alt - j : yabai -m window --swap south
 shift + alt - k : yabai -m window --swap north
 shift + alt - l : yabai -m window --swap east
 
+# Cycle focus and return to the most recently focused window.
+alt - n : yabai -m window --focus next
+alt - p : yabai -m window --focus prev
+alt - b : yabai -m window --focus recent
+
+# Change layout for the current window or space.
+alt - f : yabai -m window --toggle zoom-fullscreen
+alt - s : yabai -m window --toggle split
 alt - r : yabai -m space --rotate 90
 alt - t : yabai -m window --toggle float
 alt - e : yabai -m space --balance
+shift + alt - x : yabai -m space --mirror x-axis
+shift + alt - y : yabai -m space --mirror y-axis
+alt - g : yabai -m space --toggle gap
+shift + alt - g : yabai -m space --toggle padding
+
+# Move a window between adjacent Spaces and follow it.
+shift + alt - left  : yabai -m window --space prev --focus
+shift + alt - right : yabai -m window --space next --focus
