@@ -2,6 +2,8 @@
 
 Personal `yabai` and `skhd` configuration for macOS.
 
+Spaces start with zero outer padding and an 8px window gap.
+
 ## Setup
 
 Install `yabai` and `skhd`, grant both programs Accessibility access, then
