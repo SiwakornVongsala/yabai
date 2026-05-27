@@ -18,6 +18,17 @@ fi
 
 "$YABAI" -m config mouse_follows_focus off
 "$YABAI" -m config focus_follows_mouse off
+"$YABAI" -m config mouse_modifier alt
+"$YABAI" -m config mouse_action1 move
+"$YABAI" -m config mouse_action2 resize
+
+# Keep the first three Spaces stable for application routing and shortcuts.
+"$YABAI" -m space 1 --label code
+"$YABAI" -m space 2 --label research
+"$YABAI" -m space 3 --label document
 
 "$YABAI" -m rule --add app="^System Settings$" manage=off
 "$YABAI" -m rule --add app="^Calculator$" manage=off
+"$YABAI" -m rule --add app="^(Ghostty|iTerm2|Code)$" space=code
+"$YABAI" -m rule --add app="^(Arc|Google Chrome)$" space=research
+"$YABAI" -m rule --add app="^Discord$" space=document

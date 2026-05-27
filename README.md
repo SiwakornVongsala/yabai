@@ -2,7 +2,9 @@
 
 Personal `yabai` and `skhd` configuration for macOS.
 
-Spaces start with zero outer padding and an 8px window gap.
+Spaces start with zero outer padding and an 8px window gap. The first three
+Spaces are labelled `code`, `research`, and `document`. Code editors and
+terminals open on `code`, browsers on `research`, and Discord on `document`.
 
 ## Setup
 
@@ -19,6 +21,7 @@ The setup script creates:
 
 ```text
 ~/.config/yabai/yabairc -> <repo>/yabai/yabairc
+~/.config/yabai/float-large-space.sh -> <repo>/yabai/float-large-space.sh
 ~/.config/skhd/skhdrc   -> <repo>/skhd/skhdrc
 ```
 
@@ -30,17 +33,24 @@ shift + option + h/j/k/l  Swap a window
 option + n/p/b            Focus next / previous / recent window
 option + f                Toggle zoom fullscreen
 option + z                Toggle zoom parent
-option + s                Toggle split direction
+control + option + s      Toggle split direction
 option + r                Rotate layout
 option + t                Toggle float
 option + e                Balance layout
+shift + option + t        Float and enlarge all windows in the current Space
+shift + option + b        Return the current Space to tiled BSP layout
 shift + option + x/y      Mirror layout horizontally / vertically
 option + g                Toggle window gap
 shift + option + g        Toggle padding
 shift + option + left/right Move window to adjacent Space and follow it
 option + 1..9             Focus a numbered Space
 shift + option + 1..9     Move window to a numbered Space and follow it
+option + a/s/d            Focus code / research / document Space
+shift + option + a/s/d    Move window to code / research / document Space and follow it
 control + option + h/l    Focus display to the west / east
 shift + control + option + h/l Move window to display west / east and follow it
 control + option + left/right Adjust focused tile split ratio
 ```
+
+Hold `option` and drag with the primary mouse button to move a window, or drag
+with the secondary mouse button to resize it.
