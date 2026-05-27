@@ -28,8 +28,8 @@ alt - g : yabai -m space --toggle gap
 shift + alt - g : yabai -m space --toggle padding
 
 # Move a window between adjacent Spaces and follow it.
-shift + alt - left  : yabai -m window --space prev --focus
-shift + alt - right : yabai -m window --space next --focus
+# shift + alt - left  : yabai -m window --space prev --focus
+# shift + alt - right : yabai -m window --space next --focus
 
 # Focus Spaces by number.
 alt - 1 : yabai -m space --focus 1
