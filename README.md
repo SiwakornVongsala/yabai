@@ -2,9 +2,8 @@
 
 Personal `yabai` and `skhd` configuration for macOS.
 
-Spaces start with zero outer padding and an 8px window gap. The first three
-Spaces are labelled `code`, `research`, and `document`. Code editors and
-terminals open on `code`, browsers on `research`, and Discord on `document`.
+Spaces start with zero outer padding and a 4px window gap. Applications open
+on the currently active Space unless macOS or a local yabai rule moves them.
 
 ## Setup
 
@@ -31,7 +30,7 @@ The setup script creates:
 option + h/j/k/l          Focus a window
 shift + option + h/j/k/l  Swap a window
 option + n/p/b            Focus next / previous / recent window
-option + f                Toggle zoom fullscreen
+option + f                Focus Space 4
 option + z                Toggle zoom parent
 control + option + s      Toggle split direction
 option + r                Rotate layout
@@ -45,8 +44,8 @@ shift + option + g        Toggle padding
 shift + option + left/right Move window to adjacent Space and follow it
 option + 1..9             Focus a numbered Space
 shift + option + 1..9     Move window to a numbered Space and follow it
-option + a/s/d            Focus code / research / document Space
-shift + option + a/s/d    Move window to code / research / document Space and follow it
+option + a/s/d/f          Focus Spaces 1 / 2 / 3 / 4
+shift + option + a/s/d/f  Move window to Spaces 1 / 2 / 3 / 4 and follow it
 control + option + h/l    Focus display to the west / east
 shift + control + option + h/l Move window to display west / east and follow it
 control + option + left/right Adjust focused tile split ratio
