@@ -21,6 +21,7 @@ The setup script creates:
 ```text
 ~/.config/yabai/yabairc -> <repo>/yabai/yabairc
 ~/.config/yabai/float-large-space.sh -> <repo>/yabai/float-large-space.sh
+~/.config/yabai/swap-largest-window.sh -> <repo>/yabai/swap-largest-window.sh
 ~/.config/skhd/skhdrc   -> <repo>/skhd/skhdrc
 ```
 
@@ -29,6 +30,7 @@ The setup script creates:
 ```text
 option + h/j/k/l          Focus a window
 shift + option + h/j/k/l  Swap a window
+control + option + return Swap the focused window with the largest tiled window
 option + n/p/b            Focus next / previous / recent window
 option + f                Focus Space 4
 option + z                Toggle zoom parent

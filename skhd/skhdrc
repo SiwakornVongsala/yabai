@@ -9,6 +9,7 @@ shift + alt - h : yabai -m window --swap west
 shift + alt - j : yabai -m window --swap south
 shift + alt - k : yabai -m window --swap north
 shift + alt - l : yabai -m window --swap east
+ctrl + alt - return : "$HOME/.config/yabai/swap-largest-window.sh"
 
 # Cycle focus and return to the most recently focused window.
 # alt - n : yabai -m window --focus next
