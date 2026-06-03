@@ -24,6 +24,7 @@ alt - r : yabai -m space --rotate 90
 alt - t : yabai -m window --toggle float
 alt - e : yabai -m space --balance
 shift + alt - t : "$HOME/.config/yabai/float-large-space.sh"
+shift + ctrl + alt - t : "$HOME/.config/yabai/float-large-space.sh" xlarge
 shift + alt - b : yabai -m space --layout bsp
 shift + alt - x : yabai -m space --mirror x-axis
 shift + alt - y : yabai -m space --mirror y-axis

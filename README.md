@@ -39,6 +39,7 @@ option + r                Rotate layout
 option + t                Toggle float
 option + e                Balance layout
 shift + option + t        Float and enlarge all windows in the current Space
+shift + control + option + t Float and enlarge all windows almost full-screen
 shift + option + b        Return the current Space to tiled BSP layout
 shift + option + x/y      Mirror layout horizontally / vertically
 option + g                Toggle window gap
