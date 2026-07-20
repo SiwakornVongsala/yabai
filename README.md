@@ -22,6 +22,7 @@ The setup script creates:
 ~/.config/yabai/yabairc -> <repo>/yabai/yabairc
 ~/.config/yabai/float-large-space.sh -> <repo>/yabai/float-large-space.sh
 ~/.config/yabai/swap-largest-window.sh -> <repo>/yabai/swap-largest-window.sh
+~/.config/yabai/dev-mobile-layout.sh -> <repo>/yabai/dev-mobile-layout.sh
 ~/.config/skhd/skhdrc   -> <repo>/skhd/skhdrc
 ```
 
@@ -41,6 +42,7 @@ option + e                Balance layout
 shift + option + t        Float and enlarge all windows in the current Space
 shift + control + option + t Float and enlarge all windows almost full-screen
 shift + option + 0        Float and enlarge all windows full-screen
+shift + option + m        Float and resize every window in the Space to the left 80% (dev + mobile emulator layout)
 shift + option + space    Freeze the current BSP arrangement as floating windows
 shift + option + b        Return the current Space to tiled BSP layout
 shift + option + x/y      Mirror layout horizontally / vertically
